@@ -1,0 +1,27 @@
+labels:
+  - Accessibility
+  - Brand Accountability
+  - Brand For Me
+  - Brand Value
+  - Cleansing
+  - Companion Approval
+  - Efficacy
+  - Feel / Finish
+  - Fragrance
+  - Packaging
+  - Price
+  - Product Texture
+  - Purchase Experience
+  - Safety
+  - Skin Care
+  - Skin Texture Improvement
+
+few_shot_per_label: 3     
+val_size: 0.2
+grid_threshold:
+  start: 0.30
+  stop: 0.65
+  step: 0.02
+temperatures: [0.2, 0.3, 0.4, 0.5, 0.6]   
+keyword_bonus: 0.05
+feel_finish_bonus: 0.02
